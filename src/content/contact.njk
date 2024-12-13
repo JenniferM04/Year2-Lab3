@@ -1,0 +1,29 @@
+---
+layout: default.njk
+title: Contact
+---
+
+<h1>Contact Us</h1>
+<form id="contactForm">
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="name" required>
+  
+  <label for="phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone">
+
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" required>
+  
+  <label for="subject">Subject:</label>
+  <input type="text" id="subject" name="subject" required>
+  
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+  
+  <button type="submit">Submit</button>
+</form>
+
+<div id="spinner" style="display: none;">Loading...</div>
+<div id="thankYouMessage" style="display: none;">Thanks for reaching out. We'll get back to you soon!</div>
+
+<script src="/js/contact.js"></script>
