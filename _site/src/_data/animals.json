@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Ruby",
+      "breed": "Red-Backed Jumping Spider",
+      "legs": 8,
+      "eyes": 8,
+      "sound": "Sharp Hissing"
+    },
+    {
+      "id": 2,
+      "name": "Sophia",
+      "breed": "Emperor Penguin",
+      "legs": 2,
+      "eyes": 4,
+      "sound": "Squawk"
+    },
+    {
+      "id": 3,
+      "name": "Oscar",
+      "breed": "Bald Eagle",
+      "legs": 2,
+      "eyes": 2,
+      "sound": "Screech"
+    },
+    {
+      "id": 4,
+      "name": "Maximus",
+      "breed": "Great Horned Owl",
+      "legs": 2,
+      "eyes": 2,
+      "sound": "Hoot"
+    },
+    {
+      "id": 5,
+      "name": "Fiona",
+      "breed": "Red Panda",
+      "legs": 4,
+      "eyes": 2,
+      "sound": "Huffing"
+    },
+    {
+      "id": 6,
+      "name": "Luna",
+      "breed": "Snow Leopard",
+      "legs": 4,
+      "eyes": 2,
+      "sound": "Roar"
+    },
+    {
+      "id": 7,
+      "name": "Zephyr",
+      "breed": "Blue Jay",
+      "legs": 2,
+      "eyes": 2,
+      "sound": "Chirp"
+    },
+    {
+      "id": 8,
+      "name": "Django",
+      "breed": "Golden Retriever",
+      "legs": 4,
+      "eyes": 2,
+      "sound": "Bark"
+    },
+    {
+      "id": 9,
+      "name": "Tiberius",
+      "breed": "Komodo Dragon",
+      "legs": 4,
+      "eyes": 2,
+      "sound": "Hiss"
+    }
+  ]

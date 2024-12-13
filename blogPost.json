@@ -1,0 +1,21 @@
+{
+    "name": "blogPost",
+    "title": "Blog Post",
+    "type": "document",
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "title": "Title"
+      },
+      {
+        "name": "content",
+        "type": "text",
+        "title": "Content"
+      },
+      { "name": "category", 
+        "type": "string", 
+        "title": "Category" 
+      }
+    ]
+  }

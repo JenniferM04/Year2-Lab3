@@ -1,0 +1,28 @@
+---
+pagination:
+  data: collections.posts
+  size: 5
+  alias: paginatedPosts
+  reverse: false
+permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+
+<h1>Jenn's Blog</h1>
+
+<ul>
+  {% for post in paginatedPosts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.data.title }}</a>
+      <p>{{ post.templateContent | safe }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+<nav class="pagination">
+  {% if pagination.previousPage %}
+    <a href="{{ pagination.previousPage.url }}">Previous</a>
+  {% endif %}
+  {% if pagination.nextPage %}
+    <a href="{{ pagination.nextPage.url }}">Next</a>
+  {% endif %}
+</nav>
