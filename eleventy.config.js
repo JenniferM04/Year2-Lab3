@@ -38,7 +38,7 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      input: "content",
+      input: "src",
       output: "dist"
     }
   };
@@ -54,7 +54,7 @@ module.exports = function (eleventyConfig) {
 
   return {
     dir: {
-      input: "content",
+      input: "src",
       output: "dist"
     }
   };
@@ -71,7 +71,7 @@ module.exports = function (eleventyConfig) {
   // Return the configuration object
   return {
     dir: {
-      input: "content", // Input folder
+      input: "src", // Input folder
       output: "dist"    // Output folder
     }
   };
